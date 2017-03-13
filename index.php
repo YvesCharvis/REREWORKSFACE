@@ -11,7 +11,7 @@
 			<div class="les-articles">
 				<img src="img/une1.png" alt="" class="articleimg1 col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0">
 				<div class="row">
-					               <img class="articleimg2 col-xs-10 col-md-3" src="img/une3.png" width="500px" alt="" onclick="afficherArticle('Art1')"/>
+                    <img class="articleimg2 col-xs-10 col-md-3" src="img/une3.png" width="500px" alt="" onclick="afficherArticle('Art1')"/>
                     <img class="articleimg3 col-xs-10 col-md-3" src="img/une3.png" width="500px" alt="" onclick="afficherArticle('Art2')"/>
                     <img class="articleimg4 col-xs-10 col-md-3" src="img/une3.png" width="500px" alt="" onclick="afficherArticle('Art3')"/> 
                     <img class="articleimg5 col-xs-10 col-md-3" src="img/une3.png" width="500px" alt="" onclick="afficherArticle('Art4')"/>

@@ -6,7 +6,7 @@
     <h2 class="carrousel-h2">NOS PARTENAIRES</h2>
     <div class="carousel-inner" >
       <ul class="row item active" >
-        <li id="ag2r" class="col-xs-4 one"> <a href="http://www.ag2rlamondiale.fr/"><img src="img/carrousel/ag2r.png"< class="img-responsive"></a> </li>
+        <li id="ag2r" class="col-xs-4 one"> <a href="http://www.ag2rlamondiale.fr/"><img src="img/carrousel/ag2r.png" class="img-responsive"></a> </li>
         <li id="admical" class="col-xs-4 one"> <a href="http://www.admical.org/"> <img src="img/carrousel/admical.png" class="img-responsive"></a> </li>
         <li id="afmd" class="col-xs-4 one"> <a href="http://www.afmd.fr/"><img src="img/carrousel/afmd.png" class="img-responsive"></a> </li>
         </ul>

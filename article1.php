@@ -1,3 +1,4 @@
+
 <article id="article-accl" class="blanc row">
 	<!-- <figure class="figure pull-left gap-right"> -->
 	<div class="imageAticle col-md-6 col col-lg-6 col ">
