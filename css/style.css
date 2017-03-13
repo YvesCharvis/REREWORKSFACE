@@ -1,0 +1,730 @@
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- Importation --------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+@import url("bootstrap.min.css");
+
+@font-face {
+	font-family:'geo';
+	src:url('../fonts/geo.ttf');
+}
+@font-face {
+	font-family:'captain';
+	src:url('../fonts/captain.ttf');
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- GLOBALE CSS --------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+body{
+	background-color: #E9E9E9;
+	overflow-x: hidden;
+	width: 100%;
+}
+span{
+	color:  orange;
+}
+
+#containerUne, .container{
+margin: 0:;
+padding: 0;
+width: 90%;
+}
+
+/* reset margin Boostrap */
+.row{
+	margin-left: 0;
+	margin-right: 0;
+}
+.col-xs-8{
+	padding: 0;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- CSSHEADER ----------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Parametre du logos */
+.hidden2{		/*Logo PC qui n'apparaît pas */
+	display: none;
+}
+.clear2{		/*Logo mobile qui apparaît (mobile first) */
+	display: block;
+}
+#logo{			/*Logo mobile */
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 5px 0px #656565;	
+}
+#logo2{
+	width: 20%;
+	box-shadow: 2px 2px 5px 0px #656565;
+
+}
+
+/*---------------------------- Nav Parametre MobileFirst -------------------------------*/
+#nav {							/*Le nav global */
+	box-shadow: 2px 2px 5px 0px #656565;
+	background-image:url("../img/banniere.png");
+}
+#nav ul{						/*Liste du nav */
+	list-style: none;					
+	background-color: #4D4A4A;
+	padding: 0;
+	margin: 0;
+	font-family: 'geo';
+}
+#nav ul li{						/* Eléments de la liste */
+	font-size: 1.5em;
+	padding: 7px;
+	text-align: right;
+}
+#nav ul li:hover, li:active{				/* Eléments au passage de la souris */	
+	background-color: #24888F;
+}	
+#nav ul li a{						/* Liens dans l'élément */
+	text-decoration: none;
+	color: #E9E9E9 ;
+}
+#nav ul li:hover a{					/* Liens au passage de la souris sur l'élément */
+	color: white;
+	text-decoration: none;
+}
+#focusLI{						/* Elément de la page active */
+	background-color: #24888F;	
+}
+#focusLI a{						/* Lien de la page active */
+	color: white;
+}
+#carrousel-id{
+		width: 100%;
+	}
+
+#phraseAccroche{ /* ne pas afficher en version mobile la phrase d'accroche */
+	display: none;
+}
+
+#fb-root{
+	display: none;
+}
+.recommend{
+	display: block;
+}
+.clear2{		/*Logo mobile qui apparaît (mobile first) */
+	display: block;
+}
+
+/*------------Nav Parametre DeskopVersion ------------ */
+@media (min-width: 992px) {				/* Version PC */
+
+
+	.span4{
+		padding: 25px;
+	}
+
+.hidden2{
+	margin: 20px;
+}
+	#nav ul{	
+	background-color: #24888F;
+	padding: 10px;
+	margin: 0;
+	font-family: 'geo';
+	box-shadow: 2px 2px 5px 0px #656565;
+	}
+	#nav ul li{
+		font-size: 1.5em;
+		padding: 13px;
+		text-align: center;
+		border : none;
+		display: inline;				/* Nav en ligne */
+	}
+	#nav ul li:hover, li:active{
+		background-color: #1693A5;
+	}
+	#nav ul li a{
+		text-decoration: none;
+		color: #E9E9E9 ;
+		font-weight: bolder;
+	}
+	#nav ul li:hover a{
+		color: white;
+		text-decoration: none;
+	}	
+	#logo2{
+		box-shadow: none;
+		width: 13%;
+	}
+	.hidden2{			/* On fait apparaître un logo et disparaître l'autre */
+		display: block;
+	}
+	.clear2{
+		display: none;
+	}
+
+	#phraseAccroche{    /* affichage de la phrase d'accroche */
+		display: block;
+		width: 80%;
+	}
+	#fb-root{
+
+		display: block;
+	}
+	#carrousel-id{
+		width: 100%;
+	}
+	.recommend{
+	display: none;
+}
+	
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- PHRASE ACCROCHE ----------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- CSSCONTENEUR -------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+.aLaUne{
+	border-bottom: 2px solid orange;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+#hamburger{						/* Div du future hamburger */
+	text-align: center;
+	background-color: #4D4A4A;
+	box-shadow: 2px 2px 5px 0px #656565;
+}
+
+#conteneur{
+	background-color: #24888F;
+	margin-right: 35px;
+}
+#fb-root{
+	background-color: #3B5999;
+	width: 20%;
+	box-shadow: 2px 2px 5px 0px #656565;
+	
+}
+.pagefb{
+	width: 95%;
+	margin-left: 8px;
+	
+}
+#containerDeux{
+	width: 50%;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- CSSLA UNE ----------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.les-articles{
+	padding-bottom: 25px; 
+}
+
+.articleimg1, .articleimg2, .articleimg3, .articleimg4, .articleimg5{
+padding: 0px;
+border: solid 0.01em #E9E9E9;
+}
+
+/*style articles accueil*/
+
+
+.blanc{
+	background-color: white;
+	padding: 2em 2em 2em 2em;;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 10px;
+
+}
+.gap-right {
+    margin-right: 20px; 
+    overflow: wrap;
+    width: 400px;
+}
+figcaption{
+	text-transform: bold;
+	font-weight: bold;
+}
+
+
+
+.indent {
+    text-indent: 20px;
+}
+
+/* fin style articles accueil*/
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- PLUS ENCORE ----------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+#etPlusEncore{
+
+}
+.panel, .panel-default{
+	padding: 1%;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- PAGE GALERIE FORME ----------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+#myCarousel{
+	margin-top: 20px;
+}
+
+.glyphicon-chevron-left{
+	color: black;
+}
+
+.glyphicon-chevron-right{
+	color: black;
+}
+
+h3{
+	background-color: #122136;
+	color: white;
+	box-shadow: 2px 2px 5px 0px black;
+	margin-bottom: -40px;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------FABRIKSTYLES---------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+#global{
+	border-bottom: solid 5px orange;
+}
+#space{
+	height: 25px;
+}
+#space3{
+	height: 25px;
+	background-color: white;
+}
+#titrepage{
+	height: 100px;
+	background-color: white;
+	text-align: left;
+	
+}
+.letterpress{
+	font-size: 70px;         /* taille de la police */
+   color: white;          /* Couleur de la police */
+   text-decoration: none;       /* Enlèvement du soulignement sur les liens */
+   text-shadow: 0 -2px 0 #222222;
+   text-align: center;
+   font-family: 'Pacifico', cursive;
+}
+#presentation{
+	background-color: #1693A5;
+	padding: 30px;
+}
+ .will{
+	background-color: #FBFBFB ;
+	color: black;
+	width: 1000px;
+   height: 200px;
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+   padding: 10px;
+   -webkit-box-shadow: -1px -1px 25px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: -1px -1px 25px 0px rgba(0,0,0,0.75);
+	box-shadow: -1px -1px 25px 0px rgba(0,0,0,0.75);
+	margin: 10px;
+	display: flex;
+}
+article:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid #FBFBFB;
+   border-bottom: 13px solid transparent;
+} 
+#space2{
+	height: 40px;
+}
+.col-xs-5{
+	padding: 0;
+	margin: 0;
+}
+#photofab img {
+	width: 350px;
+	height: 350px;
+}
+
+.btn-facebook {
+	  background: #3B5998;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #263961; 
+	  font-family: 'Pacifico', cursive;
+	}
+	.btn-facebook:link, .btn-facebook:visited {
+	  color: #fff;
+	}
+	.btn-facebook:active, .btn-facebook:hover {
+	  background: #263961;
+	  color: #fff;
+	}
+	#facebook{
+		background-color: #263961;
+		height: 551px;
+		text-align: center;
+		margin: 40px auto;
+	}
+	#fb{
+		height: 470px;
+	}
+	#plan{
+		padding: 43px;
+	}
+	#plan iframe{
+		width: 100%
+	}
+	#flex{
+		display: flex;
+		justify-content: center;
+	}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- CARROUSEL ----------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+ul, li{ 
+  list-style: none;
+  padding: 0; 
+}
+.carrousel-h2{
+  background-color: #1693A5;
+  text-align: center;
+  margin-bottom: 10px;
+  color:white;
+  font-size: 23px;
+  font-family: 'geo';  
+  box-shadow: 2px 2px 5px 0px #656565;
+}
+footer{
+color: white;
+width: auto;
+height: 10px;
+line-height: 20px;
+text-align: left;
+}
+
+/*gros bordel*/
+#ratp{
+  padding-left: 90px;
+}
+.caroussel {
+  margin: 0 auto;
+  max-width: 100px;
+}
+.carousel { 
+  margin: 0 150px;  
+  width: calc(100% - ($button-spacing * 2));
+}
+
+/* fin du gros bordel */
+
+/* Alors tout ça, faut pas chercher à comprendre c'est justes les fleches pour le caroussel */
+
+.glyphicon-chevron-right{
+	color: black;
+}
+
+.glyphicon-chevron-left{
+	color:black;
+}
+
+.carousel[data-shift="1"] .carousel-inner > .item {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.carousel .carousel-inner > .item.row{ 
+	margin: 0; 
+	padding-left: 10px;
+}
+
+.carousel .carousel-control {
+  background: none;
+  color: transparent;
+  overflow: hidden;
+  text-shadow: none;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  width: 40px;
+}
+
+.carousel .carousel-control:before {
+  color: #444;
+  font-family: 'Glyphicons Halflings';
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 30px;
+}
+
+.carousel .carousel-control:after {
+  content: '';
+  height: 60%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  width: 100%;
+}
+.carousel .carousel-control.left{ 
+  left: -40px; top: 30px; 
+}
+
+.carousel .carousel-control.right{ 
+  right: -40px; top: 30px; 
+}
+
+/* Bas de page */
+
+.full {
+    width: 100%;	
+}
+.gap {
+	height: 30px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.footer2 {
+	margin-top: 130px;
+	background: #EDEFF1;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+}
+.footer2 p {
+	margin: 0;
+}
+.footer2 img {
+	max-width: 100%;
+}
+.footer2 .footerh3 {
+	background-color: none;
+	border-bottom: 1px solid #BAC1C8;
+	color: #54697E;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 10px;
+	text-transform: uppercase;
+}
+.footer2 ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #7F8C8D;
+}
+.footer2 ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+}
+.footer2 a {
+	color: #78828D
+}
+.supportLi h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+.newsletter-box input#appendedInputButton {
+	background: #FFFFFF;
+	display: inline-block;
+	float: left;
+	height: 30px;
+	clear: both;
+	width: 100%;
+}
+.newsletter-box .btn {
+	border: medium none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	display: inline-block;
+	height: 40px;
+	padding: 0;
+	width: 100%;
+	color: #fff;
+}
+.newsletter-box {
+	overflow: hidden;
+}
+.bg-gray {
+	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+	box-shadow: 0 1px 0 #B4B3B3;
+}
+.footer-bottom {
+	background: #E3E3E3;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+}
+.payments {
+	font-size: 1.5em;	
+}
+
+.social li {
+	background: none repeat scroll 0 0 #B5B5B5;
+	border: 2px solid #B5B5B5;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 8px 0 0;
+	padding: 0;
+	text-align: center;
+	width: 36px;
+	transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+}
+
+.social li:hover {
+	transform: scale(1.15) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+}
+.social li a {
+	color: #EDEFF1;
+}
+.social li:hover {
+	border: 2px solid #2c3e50;
+	background: #2c3e50;
+}
+.social li a i {
+	font-size: 16px;
+	margin: 0 0 0 5px;
+	color: #EDEFF1 !important;
+}
+
+
+
+/*Classes necessaires aux fonctions afficher article et onclick ne pas inverser leur ordre*/
+
+.cache{
+	display: none;
+	
+}
+
+.Afficher {
+	display: inline;
+	
+
+	
+}
+
+
+/*CSS Présentation*/
+blockquote{
+	border-color: #EC9566;
+	min-height: 40px;
+    margin-bottom: 5px;
+    padding: 5px 13px;
+    border-radius: 8px;
+    background-color: white;
+    font-style: italic;
+    text-shadow: 0 1px 0 #ffffde;
+	color: #8e7c70;
+}
+
+
+#styleH2{
+	background-color: #1693A5;
+  	text-align: center;
+  	margin-bottom: 10px;
+  	color:white;
+  	font-size: 23px;
+  	font-family: 'Pacifico', cursive;  
+  	box-shadow: 2px 2px 5px 0px #656565;
+  	line-height: 30px;
+
+}
+
+/*finstylepresentation*/
+/*
+------------------------------------------------Page contact fabrique---------------------------------------------------*/
+
+
+}
+#table{
+	
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+td{
+	border-radius: 50% solid 1px;
+}
+td img{
+	border-radius: 25%;
+	width: 200px;
+	height: 200px;
+}
+.infobulle:hover,.infobulle:focus{
+     box-shadow:0 1px 0 rgba(255,255,255,.4);
+}
+.infobulle .name{
+	position: absolute;
+    color:#09c;
+ 	margin-left: auto;
+ 	margin-right: auto;
+     background:rgba(0,0,0,.9);
+     padding:15px;
+     border-radius:3px;
+     box-shadow:0 0 2px rgba(0,0,0,.5);
+     transform:scale(0) rotate(-12deg);
+     transition:all .25s;
+     opacity:0;
+}
+.infobulle:hover .name, .infobulle:focus .name{
+     transform:scale(1) rotate(0);  
+     opacity:1;      
+}
+
+
+tr{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*----------------------------------------------------fin pagecontactfabrique------------------------------------------------*/
