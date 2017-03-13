@@ -1,4 +1,4 @@
-<?php include 'header.html' ?>
+<?php include 'header.php' ?>
 
   <body>
   
@@ -107,4 +107,4 @@
     </div>
     <!-- /galerie -->
 
-    <?php include 'footer.html' ?>
+    <?php include 'footer.php' ?>

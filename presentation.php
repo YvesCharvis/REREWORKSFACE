@@ -1,4 +1,4 @@
-<?php include 'header.html' ?>
+<?php include 'header.php' ?>
 	<main>
 		
 	<!-- 	citation mestrallet -->
@@ -94,5 +94,5 @@ CIVIGAZ est mis en œuvre dans le cadre du grand programme gouvernemental de Ser
 	</main>
 
 
-<?php include 'footer.html' ?>
+<?php include 'footer.php' ?>
 

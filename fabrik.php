@@ -1,4 +1,4 @@
-<?php  include "header.html" ?>
+<?php include "header.php" ?>
 	<div class="row">
 		<div id="space" class="col-xs-10 col-md-12">			
 		</div>		
@@ -100,4 +100,4 @@
 				
 
 
- <?php  include "footer.html" ?>
+ <?php include "footer.php" ?>

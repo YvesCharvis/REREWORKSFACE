@@ -1,4 +1,4 @@
-<?php  include "header.html" ?>
+<?php include "header.php" ?>
 
 	<div id="Contact" class="row">
 		<h2 id="styleH2" class="col-sm-6 col-sm-offset-3 col-md-8 col-md-offset-2 col-lg-8 col col-lg-offset-2">Contact des apprennants de la fabrique</h2>
@@ -210,4 +210,4 @@
 	</div>
 
 	
- <?php  include "footer.html" ?>
+ <?php include "footer.php" ?>

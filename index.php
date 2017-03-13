@@ -1,4 +1,4 @@
-<?php include 'header.html' ?>
+<?php include 'header.php' ?>
 
 	<!--///////////////////////////////////Phrase Accorche + DIV FACEBOOK ? \\\\\\\\\\\\\\\-->
 
@@ -18,7 +18,7 @@
                 </div>  
             </div>  
         </div>
-        <div class="cache" id="Art1"><?php include 'article1.html' ?></div>
+        <div class="cache" id="Art1"><?php include 'article1.php' ?></div>
         <div class="cache" id="Art2">article2</div>
         <div class="cache" id="Art3">article3</div>
         <div class="cache" id="Art4">article4</div>
@@ -89,5 +89,5 @@
 
 
 <script type="text/javascript" src="js/script.js"></script>
-<?php include 'footer.html' ?>
+<?php include 'footer.php' ?>
 
