@@ -1,0 +1,140 @@
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- CSSHEADER ----------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Parametre du logos */
+.hidden2{		/*Logo PC qui n'apparaît pas */
+	display: none;
+}
+.clear2{		/*Logo mobile qui apparaît (mobile first) */
+	display: block;
+}
+#logo{			/*Logo mobile */
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 5px 0px #656565;	
+}
+#logo2{
+	width: 20%;
+	box-shadow: 2px 2px 5px 0px #656565;
+
+}
+
+/*---------------------------- Nav Parametre MobileFirst -------------------------------*/
+#nav {							/*Le nav global */
+	box-shadow: 2px 2px 5px 0px #656565;
+	background-image:url("../../img/banniere.png");
+	background-repeat: no-repeat;
+}
+#nav ul{						/*Liste du nav */
+	list-style: none;					
+	background-color: #4D4A4A;
+	padding: 0;
+	margin: 0;
+	font-family: 'geo';
+}
+#nav ul li{						/* Eléments de la liste */
+	font-size: 1.5em;
+	padding: 7px;
+	text-align: right;
+}
+#nav ul li:hover, li:active{				/* Eléments au passage de la souris */	
+	background-color: #24888F;
+}	
+#nav ul li a{						/* Liens dans l'élément */
+	text-decoration: none;
+	color: #E9E9E9 ;
+}
+#nav ul li:hover a{					/* Liens au passage de la souris sur l'élément */
+	color: white;
+	text-decoration: none;
+}
+#focusLI{						/* Elément de la page active */
+	background-color: #24888F;	
+}
+#focusLI a{						/* Lien de la page active */
+	color: white;
+}
+#carrousel-id{
+		width: 100%;
+	}
+
+#phraseAccroche{ /* ne pas afficher en version mobile la phrase d'accroche */
+	display: none;
+}
+
+#fb-root{
+	display: none;
+}
+.recommend{
+	display: block;
+}
+.clear2{		/*Logo mobile qui apparaît (mobile first) */
+	display: block;
+}
+
+/*------------Nav Parametre DeskopVersion ------------ */
+@media (min-width: 992px) {				/* Version PC */
+
+
+	.span4{
+		padding: 25px;
+	}
+
+.hidden2{
+	margin: 20px;
+}
+	#nav ul{	
+	background-color: #24888F;
+	padding: 10px;
+	margin: 0;
+	font-family: 'geo';
+	box-shadow: 2px 2px 5px 0px #656565;
+	}
+	#nav ul li{
+		font-size: 1.5em;
+		padding: 13px;
+		text-align: center;
+		border : none;
+		display: inline;				/* Nav en ligne */
+	}
+	#nav ul li:hover, li:active{
+		background-color: #1693A5;
+	}
+	#nav ul li a{
+		text-decoration: none;
+		color: #E9E9E9 ;
+		font-weight: bolder;
+	}
+	#nav ul li:hover a{
+		color: white;
+		text-decoration: none;
+	}	
+	#logo2{
+		box-shadow: none;
+		width: 13%;
+	}
+	.hidden2{			/* On fait apparaître un logo et disparaître l'autre */
+		display: block;
+	}
+	.clear2{
+		display: none;
+	}
+
+	#phraseAccroche{    /* affichage de la phrase d'accroche */
+		display: block;
+		width: 80%;
+	}
+	#fb-root{
+
+		display: block;
+	}
+	#carrousel-id{
+		width: 100%;
+	}
+	.recommend{
+	display: none;
+}
+	
+}

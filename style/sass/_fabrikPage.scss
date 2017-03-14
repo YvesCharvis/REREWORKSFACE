@@ -1,0 +1,106 @@
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------FABRIKSTYLES---------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+#global{
+	border-bottom: solid 5px orange;
+}
+#space{
+	height: 25px;
+}
+#space3{
+	height: 25px;
+	background-color: white;
+}
+#titrepage{
+	height: 100px;
+	background-color: white;
+	text-align: left;
+	
+}
+.letterpress{
+	font-size: 70px;         /* taille de la police */
+   color: white;          /* Couleur de la police */
+   text-decoration: none;       /* Enlèvement du soulignement sur les liens */
+   text-shadow: 0 -2px 0 #222222;
+   text-align: center;
+   font-family: 'Pacifico', cursive;
+}
+#presentation{
+	background-color: #1693A5;
+	padding: 30px;
+}
+ .will{
+	background-color: #FBFBFB ;
+	color: black;
+	width: 1000px;
+   height: 200px;
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+   padding: 10px;
+   -webkit-box-shadow: -1px -1px 25px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: -1px -1px 25px 0px rgba(0,0,0,0.75);
+	box-shadow: -1px -1px 25px 0px rgba(0,0,0,0.75);
+	margin: 10px;
+	display: flex;
+}
+article:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid #FBFBFB;
+   border-bottom: 13px solid transparent;
+} 
+#space2{
+	height: 40px;
+}
+.col-xs-5{
+	padding: 0;
+	margin: 0;
+}
+#photofab img {
+	width: 350px;
+	height: 350px;
+}
+
+.btn-facebook {
+	  background: #3B5998;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #263961; 
+	  font-family: 'Pacifico', cursive;
+	}
+	.btn-facebook:link, .btn-facebook:visited {
+	  color: #fff;
+	}
+	.btn-facebook:active, .btn-facebook:hover {
+	  background: #263961;
+	  color: #fff;
+	}
+	#facebook{
+		background-color: #263961;
+		height: 551px;
+		text-align: center;
+		margin: 40px auto;
+	}
+	#fb{
+		height: 470px;
+	}
+	#plan{
+		padding: 43px;
+	}
+	#plan iframe{
+		width: 100%
+	}
+	#flex{
+		display: flex;
+		justify-content: center;
+	}
+

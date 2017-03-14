@@ -1,0 +1,76 @@
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- Importation --------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+//LES IMPORT
+@import 'header';
+@import 'contenuAccueil';
+@import 'presentation';
+@import 'contactPage';
+@import 'fabrikPage';
+@import 'galeriePage';
+@import 'footer';
+
+
+
+@import url("bootstrap.min.css");
+
+@font-face {
+	font-family:'geo';
+	src:url('../../fonts/geo.ttf');
+}
+@font-face {
+	font-family:'captain';
+	src:url('../../fonts/captain.ttf');
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- GLOBALE CSS --------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+body{
+	background-color: #E9E9E9;
+	overflow-x: hidden;
+	width: 100%;
+}
+span{
+	color:  orange;
+}
+
+#containerUne, .container{
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+/* reset margin Boostrap */
+.row{
+	margin-left: 0;
+	margin-right: 0;
+}
+.col-xs-8{
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+/*Classes necessaires aux fonctions afficher article et onclick ne pas inverser leur ordre*/
+
+.cache{
+	display: none;
+	
+}
+
+.Afficher {
+	display: inline;
+	
+
+	
+}
+
+
+

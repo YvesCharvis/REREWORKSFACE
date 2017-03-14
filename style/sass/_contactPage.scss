@@ -1,0 +1,47 @@
+/*
+------------------------------------------------Page contact fabrique---------------------------------------------------*/
+
+
+
+#table{
+	
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+td{
+	border-radius: 50% solid 1px;
+}
+td img{
+	border-radius: 25%;
+	width: 200px;
+	height: 200px;
+}
+.infobulle:hover,.infobulle:focus{
+     box-shadow:0 1px 0 rgba(255,255,255,.4);
+}
+.infobulle .name{
+	position: absolute;
+    color:#09c;
+ 	margin-left: auto;
+ 	margin-right: auto;
+     background:rgba(0,0,0,.9);
+     padding:15px;
+     border-radius:3px;
+     box-shadow:0 0 2px rgba(0,0,0,.5);
+     transform:scale(0) rotate(-12deg);
+     transition:all .25s;
+     opacity:0;
+}
+.infobulle:hover .name, .infobulle:focus .name{
+     transform:scale(1) rotate(0);  
+     opacity:1;      
+}
+
+
+tr{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*----------------------------------------------------fin pagecontactfabrique------------------------------------------------*/

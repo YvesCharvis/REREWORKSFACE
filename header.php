@@ -7,13 +7,13 @@
 			 <!-- Meta pour la responsive -->
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<!-- Link du CSS de Bootstrap -->
-			<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+			<link rel="stylesheet" type="text/css" href="frameworks/bootstrap.css">
 			<!-- Link du JS JQuery -->
 			<script type="text/javascript" src="js/jquery.js"></script>
 			<!-- Link du JS de Bootstrap -->
 			<script type="text/javascript" src="js/bootstrap.js"></script>
 			<!-- Link de notre CSS  -->
-			<link rel="stylesheet" type="text/css" href="css/style.css"> 
+			<link rel="stylesheet" type="text/css" href="style/css/style.css"> 
 			<!-- Coloration de Safari sur mobile -->
 			<meta name="apple-mobile-web-app-capable" content="yes">
 			<meta name="apple-mobile-web-app-status-bar-style" content="#24888F">
