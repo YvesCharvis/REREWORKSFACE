@@ -73,13 +73,10 @@
 	</div>  
 </div>	
 
-
-
-
 </div> <!-- fermeture containerUne -->
 
 
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/jquery.js"></script>
-<?php include 'footer.php' ?>
+include 'footer.php'
 
