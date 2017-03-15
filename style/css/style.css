@@ -116,7 +116,7 @@
     background-position: 46% 50%; } }
 @media screen and (max-width: 425px) {
   .navbar #top {
-    padding: 15px 15px; } }
+    padding: 0px 0px; } }
 .container {
   margin-top: 250px; }
 
@@ -673,3 +673,21 @@ span {
 
 .Afficher {
   display: inline; }
+
+/* LOGO top left */
+
+.container #top{    
+	background: #1f5d74;
+	background: -moz-linear-gradient(-65deg, #1f5d74 0%, #1f5d74 40%, #1693a5 45%);
+	background: -webkit-linear-gradient(-65deg, #1f5d74 0%,#1f5d74 40%,#1693a5 45%);
+	background: linear-gradient(155deg, #1f5d74 0%,#1f5d74 40%,#1693a5 45%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f5d74', endColorstr='#1693a5',GradientType=1 );
+}
+
+.container #top img{
+	-webkit-filter: drop-shadow(5px 5px 5px #222 );
+  	filter: drop-shadow(5px 5px 5px #222);
+  	padding: 10px; 
+  	width: 20em;
+
+}

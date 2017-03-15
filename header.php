@@ -32,7 +32,7 @@
 
 	<!-- Logo & recherche -->
 	<div id="top">
-		<img src="img/faceimg.png" alt="logo_face" width="15%" />
+		<a href="index.php"><img src="img/faceimg.png" alt="logo_face" /></a> 
 		
 	</div>
 
