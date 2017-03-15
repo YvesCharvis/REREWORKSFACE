@@ -20,6 +20,11 @@
 			<meta name="apple-mobile-web-app-status-bar-style" content="#24888F">
 		<!-- Coloration de Google Chrome sur mobile -->
 			<meta name="theme-color" content="#24888F">
+			 <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 	</head>
 <body class="container">
 	<div class="row">
@@ -81,12 +86,9 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="laFabrik.php" title="Fabrik" class="active">La Fabrik</a>
+						<a href="Contactfab.php" title="Fabrik" class="active">La Fabrik</a>
 						<ul class="dropdown-menu">
-							<li><a href="laFabrik_galery.php">Photos</a></li>
-							<li><a href="#">Projets</a></li>
-							<li><a href="#">Actualités</a></li>
-							<li><a href="#">Présentation</a></li>
+						
 						</ul>
 					</li>
 					<li><a href="contact.php" title="Contact" class="active">Contact</a></li>

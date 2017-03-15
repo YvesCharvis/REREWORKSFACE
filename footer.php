@@ -36,7 +36,7 @@
       </div>
     <ul id="flexiselDemo2">
         <li><img src="img/carrousel/ag2r.png" /></li>
-        <li><img src="img/carrousel/admical.png" /></li>
+        <li><img src="img/carrousel/admical.png" /></li>s
         <li><img src="img/carrousel/afmd.png" /></li>
         <li><img src="img/carrousel/anru.png" /></li>
         <li><img src="img/carrousel/logoapf.png" /></li>
