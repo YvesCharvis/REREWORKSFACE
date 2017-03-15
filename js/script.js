@@ -121,3 +121,5 @@ function afficherArticle(loc){
  function AfficherOnclick(loc){
   $( "#"+loc ).toggle("slow");
 }
+
+
