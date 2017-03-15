@@ -2,150 +2,151 @@
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* ----------------------------------------------------------- Importation --------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
-/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
-/* ----------------------------------------------------------- CSSHEADER ----------------------------------------------------------------------------*/
-/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
-/*Parametre du logos */
 @import url("bootstrap.min.css");
-.hidden2 {
-  /*Logo PC qui n'appara├«t pas */
-  display: none; }
+.navbar #bottom {
+  /* Zone menu & navigation */
+  background-color: #E79063;
+  border-bottom: 3px solid #8b563c;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 18px;
+  -webkit-box-shadow: -1px 16px 20px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: -1px 16px 20px 0px rgba(0, 0, 0, 0.28);
+  box-shadow: -1px 16px 20px 0px rgba(0, 0, 0, 0.28); }
 
-.clear2 {
-  /*Logo mobile qui appara├«t (mobile first) */
-  display: block; }
+.navbar #bottom .container {
+  /* Bo├«te des liens */
+  margin-top: 0px; }
 
-#logo {
-  /*Logo mobile */
+.navbar #bottom .container .navbar-nav {
+  /* Sous-boite des liens */
   width: 100%;
-  margin-top: 10px;
+  text-align: center; }
+
+.navbar #bottom .container .navbar-nav > li {
+  /* Centrer les li */
+  float: none;
+  display: inline-block; }
+
+.navbar #bottom .container .nav #active {
+  /* Lien actuel */
+  background-color: #8b563c; }
+
+.navbar #bottom .container .nav a {
+  /* Texte des liens */
+  color: #FFFFFF;
+  text-transform: uppercase;
+  transition: 300ms cubic-bezier(0.4, 0, 1, 1);
+  padding: 10px 30px; }
+
+.navbar #bottom .container .nav > li > a:hover {
+  /* Texte des liens au survol */
+  background-color: #D5855C; }
+
+.navbar #bottom .container .nav > li > a:focus {
+  /* Texte des liens au clic */
+  background-color: #8b563c; }
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: #D5855C; }
+
+.dropdown-menu {
+  /* Menu d├®roulant */
+  background-color: #8b563c;
+  text-align: center;
+  border: 0px;
+  min-width: auto; }
+
+.dropdown-menu li a {
+  /* Texte des liens */
+  color: #FFFFFF;
+  font-size: 16px; }
+
+.navbar-nav > li > .dropdown-menu {
+  left: 0;
+  right: 0; }
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  /* Texte des liens au survol */
+  background-color: #D5855C; }
+
+.navbar #bottom .container .bars {
+  background-color: transparent;
+  border-top: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-left: 1px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  color: #FFFFFF;
   margin-bottom: 10px;
-  box-shadow: 2px 2px 5px 0px #656565; }
+  margin-top: 10px;
+  float: right; }
 
-#logo2 {
-  width: 20%;
-  box-shadow: 2px 2px 5px 0px #656565; }
+.navbar #bottom .container .text {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  top: 5px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  float: left; }
 
-/*---------------------------- Nav Parametre MobileFirst -------------------------------*/
-#nav {
-  /*Le nav global */
-  box-shadow: 2px 2px 5px 0px #656565;
-  background-image: url("../../img/banniere.png");
-  background-repeat: no-repeat; }
+@media screen and (max-width: 1024px) {
+  .navbar #top {
+    background-position: 50% 50%; } }
+@media screen and (max-width: 767px) {
+  .navbar #top {
+    background-position: 47% 50%; }
 
-#nav ul {
-  /*Liste du nav */
-  list-style: none;
-  background-color: #4D4A4A;
-  padding: 0;
-  margin: 0;
-  font-family: 'geo'; }
+  .navbar #bottom .container .navbar-nav {
+    text-align: left; }
 
-#nav ul li {
-  /* El├®ments de la liste */
-  font-size: 1.5em;
-  padding: 7px;
-  text-align: right; }
+  .navbar #bottom .container .navbar-nav > li {
+    float: none;
+    display: block; } }
+@media screen and (max-width: 425px) {
+  .navbar #top {
+    background-position: 46% 50%; } }
+@media screen and (max-width: 425px) {
+  .navbar #top {
+    padding: 15px 15px; } }
+.container {
+  margin-top: 250px; }
 
-#nav ul li:hover, li:active {
-  /* El├®ments au passage de la souris */
-  background-color: #24888F; }
+.container .row {
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto; }
 
-#nav ul li a {
-  /* Liens dans l'├®l├®ment */
-  text-decoration: none;
-  color: #E9E9E9; }
+.container .row .boxtitle {
+  /* Ic├┤nes des sections*/
+  padding-right: 0px;
+  padding-left: 0px; }
 
-#nav ul li:hover a {
-  /* Liens au passage de la souris sur l'├®l├®ment */
-  color: white;
-  text-decoration: none; }
+.container .row .boxtitle .fa {
+  color: #C93F5E;
+  margin-right: 10px; }
 
-#focusLI {
-  /* El├®ment de la page active */
-  background-color: #24888F; }
+.container .row .box {
+  /* Style par d├®faut des blocs */
+  background-color: #FFFFFF;
+  border-top: 6px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-left: 1px;
+  border-color: #1693A5;
+  border-style: solid;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px; }
 
-#focusLI a {
-  /* Lien de la page active */
-  color: white; }
-
-#carrousel-id {
-  width: 100%; }
-
-#phraseAccroche {
-  /* ne pas afficher en version mobile la phrase d'accroche */
-  display: none; }
-
-#fb-root {
-  display: none; }
-
-.recommend {
-  display: block; }
-
-.clear2 {
-  /*Logo mobile qui appara├«t (mobile first) */
-  display: block; }
-
-/*------------Nav Parametre DeskopVersion ------------ */
-@media (min-width: 992px) {
-  /* Version PC */
-  .span4 {
-    padding: 25px; }
-
-  .hidden2 {
-    margin: 20px; }
-
-  #nav ul {
-    background-color: #24888F;
-    padding: 10px;
-    margin: 0;
-    font-family: 'geo';
-    box-shadow: 2px 2px 5px 0px #656565; }
-
-  #nav ul li {
-    font-size: 1.5em;
-    padding: 13px;
-    text-align: center;
-    border: none;
-    display: inline;
-    /* Nav en ligne */ }
-
-  #nav ul li:hover, li:active {
-    background-color: #1693A5; }
-
-  #nav ul li a {
-    text-decoration: none;
-    color: #E9E9E9;
-    font-weight: bolder; }
-
-  #nav ul li:hover a {
-    color: white;
-    text-decoration: none; }
-
-  #logo2 {
-    box-shadow: none;
-    width: 13%; }
-
-  .hidden2 {
-    /* On fait appara├«tre un logo et dispara├«tre l'autre */
-    display: block; }
-
-  .clear2 {
-    display: none; }
-
-  #phraseAccroche {
-    /* affichage de la phrase d'accroche */
-    display: block;
-    width: 80%; }
-
-  #fb-root {
-    display: block; }
-
-  #carrousel-id {
-    width: 100%; }
-
-  .recommend {
-    display: none; } }
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* ----------------------------------------------------------- CSSCONTENEUR -------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/

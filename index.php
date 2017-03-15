@@ -3,9 +3,10 @@
 	<!--///////////////////////////////////Phrase Accorche + DIV FACEBOOK ? \\\\\\\\\\\\\\\-->
 
 	<!--///////////////////////////////////CONTENEUR\\\\\\\\\\\\\\\\\\\\\\-->
+<img classe="phraseacroche" src="img/phrase.png" width="40%">
 
-<div id="containerUne col-md-10 col-md-offset-1">
-	<div id="conteneur" class="col-xs-12 col-md-9"> 		<!--Conteneur detier la Une, Menu press et social -->
+<div id="containerUne col-md-10 col-md-offset-3">
+	<div id="conteneur" class="col-xs-12 col-md-10 col-md-offset-1"> 		<!--Conteneur detier la Une, Menu press et social -->
 		<div id="laUne" class="">
 			<H2 class="aLaUne col-lg-7 text-left text-capitalize">A <span>La Une</span></H2>  	<!-- La Une DIV -->
 			<div class="les-articles">
@@ -25,17 +26,7 @@
     </div>
 </div>
 	<!-- /////////////////////////////////Partie Social FB \\\\\\\\\\\\\\\\-->
-	<div class="row">
-<div id="fb-root" class="col-md-4" >
-	<div class="span4"></div>
-    	<img class="col-md-offset-4" src="img/facebook.png" width="120">
-    		<div class="span4"></div>
-				<iframe class="pagefb" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffaceterritoirebourbonnais%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="1" allowTransparency="true">		
-				</iframe>
 
-					<iframe class="recommend col-xs-offset-3" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Ffaceterritoirebourbonnais&width=105&layout=box_count&action=recommend&size=small&show_faces=true&share=true&height=65&appId" width="105" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true">			
-					</iframe>
-</div>
 <div class="cal-md-6">
 
 </div>
@@ -89,5 +80,6 @@
 
 
 <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
 <?php include 'footer.php' ?>
 
