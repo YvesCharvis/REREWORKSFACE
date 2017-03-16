@@ -12,10 +12,10 @@
 			<div class="les-articles">
 				<img src="img/une1.png" alt="" class="articleimg1 col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0">
 				<div class="row">
-                    <img class="articleimg2 col-xs-10 col-md-3" src="img/une3.png" width="500px" alt="" onload="afficherArticle('Art1')" onclick="afficherArticle('Art1')"/>
-                    <img class="articleimg3 col-xs-10 col-md-3" src="img/une3.png" width="500px" alt="" onclick="afficherArticle('Art2')"/>
-                    <img class="articleimg4 col-xs-10 col-md-3" src="img/une3.png" width="500px" alt="" onclick="afficherArticle('Art3')"/> 
-                    <img class="articleimg5 col-xs-10 col-md-3" src="img/une3.png" width="500px" alt="" onclick="afficherArticle('Art4')"/>
+                    <img class="articleimg2 col-xs-10 col-md-3 col-xs-offset-1 col-md-offset-0" src="img/une3.png" width="500px" alt="" onload="afficherArticle('Art1')" onclick="afficherArticle('Art1')"/>
+                    <img class="articleimg3 col-xs-10 col-md-3 col-xs-offset-1 col-md-offset-0" src="img/une3.png" width="500px" alt="" onclick="afficherArticle('Art2')"/>
+                    <img class="articleimg4 col-xs-10 col-md-3 col-xs-offset-1 col-md-offset-0" src="img/une3.png" width="500px" alt="" onclick="afficherArticle('Art3')"/> 
+                    <img class="articleimg5 col-xs-10 col-md-3 col-xs-offset-1 col-md-offset-0" src="img/une3.png" width="500px" alt="" onclick="afficherArticle('Art4')"/>
                 </div>  
             </div>  
         </div>
@@ -35,7 +35,7 @@
 	<div id="oldPresse" class="col-xs-10 col-md-12"> 
 		<H2 class="aLaUne col-xs-12 col-md-12 col-lg-12 text-left text-capitalize">Plus <span>encore</span></H2>  	<!-- La Une DIV -->
 			<div id="etPlusEncore" class="row">
-				<div class="col-xs-10 col-md-4 col-lg-4">
+				<div class="col-xs-10 col-md-4 col-lg-4 col-xs-offset-2 col-md-offset-0">
                 	<div class="panel panel-default">
                     	<div class="panel-heading">
                        	 	<h4><i class="fa fa-fw fa-check"></i> OLD ARTICLE</h4>
@@ -47,7 +47,7 @@
                     	</div>
                 	</div>
             	</div>
-            	<div class="col-xs-10 col-md-4 col-lg-4">
+            	<div class="col-xs-10 col-md-4 col-lg-4 col-xs-offset-2 col-md-offset-0">
                 	<div class="panel panel-default">
                     	<div class="panel-heading">
                        	 	<h4><i class="fa fa-fw fa-gift"></i> OLD ARTICLE</h4>
@@ -58,7 +58,7 @@
                     	</div>
                 	</div>
             	</div>
-           		<div class="col-xs-10 col-md-4 col-lg-4">
+           		<div class="col-xs-10 col-md-4 col-lg-4 col-xs-offset-2 col-md-offset-0">
                 	<div class="panel panel-default">
                     	<div class="panel-heading">
                         	<h4><i class="fa fa-fw fa-compass"></i> OLD ARTICLE</h4>
