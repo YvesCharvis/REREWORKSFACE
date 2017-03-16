@@ -6,12 +6,12 @@
     <h2 class="carrousel-h2">NOS PARTENAIRES</h2>
     <div class="carousel-inner" >
       <ul class="row item active" >
-        <li id="ag2r" class="col-xs-4 one"> <a href="http://www.ag2rlamondiale.fr/"><img src="img/carrousel/ag2r.png" class="img-responsive"></a> </li>
+        <li id="ag2r" class="col-xs-4 one"> <a href="http://www.ag2rlamondiale.fr/"><img src="img/carrousel/ag2r.png"< class="img-responsive"></a> </li>
         <li id="admical" class="col-xs-4 one"> <a href="http://www.admical.org/"> <img src="img/carrousel/admical.png" class="img-responsive"></a> </li>
         <li id="afmd" class="col-xs-4 one"> <a href="http://www.afmd.fr/"><img src="img/carrousel/afmd.png" class="img-responsive"></a> </li>
         </ul>
         <ul class="row item">
-          <li id="anru" class="col-xs-4 one"><a href="http://www.anru.fr/"> <img src="" class="img-responsive"></a> </li>
+          <li id="anru" class="col-xs-4 one"><a href="http://www.anru.fr/"> <img src="img/carrousel/anru.png" class="img-responsive"></a> </li> 
           <li id="apf" class="col-xs-4 one"> <a href="http://www.apf.asso.fr/"><img src="img/carrousel/logoapf.png" class="img-responsive"></a> </li>
         </ul>
         <ul class="row item">
@@ -23,9 +23,7 @@
           <li id="union" class="col-xs-4 one"><a href="http://www.ag2rlamondiale.fr/"> <img src="img/carrousel/union.png" class="img-responsive"></a> </li>
         </ul>
       </div>
-
-
-        <a class="carousel-control left" href="#single" data-slide="prev">
+      <a class="carousel-control left" href="#single" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left"></span>
       </a> 
 
@@ -34,18 +32,6 @@
       </a>
       </div>
       </div>
-    <ul id="flexiselDemo2">
-        <li><img src="img/carrousel/ag2r.png" /></li>
-        <li><img src="img/carrousel/admical.png" /></li>
-        <li><img src="img/carrousel/afmd.png" /></li>
-        <li><img src="img/carrousel/anru.png" /></li>
-        <li><img src="img/carrousel/logoapf.png" /></li>
-        <li><img src="img/carrousel/logo_cnam.png" /></li>
-        <li><img src="img/carrousel/fei.png" /></li>
-        <li><img src="img/carrousel/total.png" /></li>
-        <li><img src="img/carrousel/union.png" /></li>
-
-    </ul>
   </footer>
 
    <!-- BasDePage
@@ -96,11 +82,11 @@
                         </li>
                     </ul>
                     <ul class="social">
-                        <li> <a href="http://www.facebook.com"> <i class=" fa fa-facebook">   </i> </a> </li>
-                        <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
-                        <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
-                        <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
-                        <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
+                        <li> <a href="http://www.facebook.com"> <i class=" fa fa-facebook">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
                     </ul>
                 </div>
             </div>
@@ -111,74 +97,13 @@
     <!--/.footer-->
 
     </div>
-    <!--/.footer-bottom-->
-
+    <!--/.footer-bottom--> 
 </footer>
-<script type="text/javascript">
-
-    $(window).load(function() {
-        $("#flexiselDemo1").flexisel();
-
-        $("#flexiselDemo2").flexisel({
-            visibleItems: 4,
-            itemsToScroll: 3,
-            animationSpeed: 200,
-            infinite: true,
-            navigationTargetSelector: null,
-            autoPlay: {
-                enable: false,
-                interval: 5000,
-                pauseOnHover: true
-            },
-            responsiveBreakpoints: {
-                portrait: {
-                    changePoint:480,
-                    visibleItems: 1,
-                    itemsToScroll: 1
-                },
-                landscape: {
-                    changePoint:640,
-                    visibleItems: 2,
-                    itemsToScroll: 2
-                },
-                tablet: {
-                    changePoint:768,
-                    visibleItems: 3,
-                    itemsToScroll: 3
-                }
-            },
-            loaded: function(object) {
-                console.log('Slider loaded...');
-            },
-            before: function(object){
-                console.log('Before transition...');
-            },
-            after: function(object) {
-                console.log('After transition...');
-            }
-        });
-
-        $("#flexiselDemo3").flexisel({
-            visibleItems: 3,
-            itemsToScroll: 1,
-            autoPlay: {
-                enable: true,
-                interval: 5000,
-                pauseOnHover: true
-            }
-        });
-
-        $("#flexiselDemo4").flexisel({
-            infinite: false
-        });
-
-    });
-</script>
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+   
 <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script> 
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
 <script src="//code.jquery.com/jquery-2.2.0.min.js"></script> 
 <script src="js/script.js" type="text/javascript" charset="utf-8" async defer></script>
+
 
 </body>

@@ -150,6 +150,14 @@
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* ----------------------------------------------------------- CSSCONTENEUR -------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------image acroche------ */
+img .phraseacroche {
+  margin-right: 15%; }
+
+.contener {
+  margin-bottom: 50px;
+  width: 88%; }
+
 .aLaUne {
   border-bottom: 2px solid orange;
   margin-bottom: 20px;
@@ -243,9 +251,6 @@ blockquote {
   display: flex;
   justify-content: center;
   flex-wrap: wrap; }
-
-td {
-  border-radius: 50% solid 1px; }
 
 td img {
   border-radius: 25%;
@@ -666,6 +671,9 @@ span {
 
 .col-xs-8 {
   padding: 0; }
+
+.phraseacroche {
+  display: center; }
 
 /*Classes necessaires aux fonctions afficher article et onclick ne pas inverser leur ordre*/
 .cache {
