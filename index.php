@@ -30,6 +30,11 @@
 <div class="cal-md-6">
 
 </div>
+    </div>
+<div id="containerDeux col-xs-12 col-md-12 ">
+
+
+</div>
 	</div>
 <div id="containerDeux col-xs-12 col-md-12 ">
 	<div id="oldPresse" class="col-xs-10 col-md-12"> 
@@ -78,5 +83,5 @@
 
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/jquery.js"></script>
- include 'footer.php' 
+ <?php include 'footer.php' ?>
  
