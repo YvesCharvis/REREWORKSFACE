@@ -3,19 +3,27 @@
 /* ----------------------------------------------------------- Importation --------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
 @import url("bootstrap.min.css");
+body{
+	    margin: 0px;
+
+}
+
+
+
 .navbar #bottom {
-  /* Zone menu & navigation */
-  background-color: #E79063;
-  border-bottom: 3px solid #8b563c;
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 18px;
-  -webkit-box-shadow: -1px 16px 20px 0px rgba(0, 0, 0, 0.28);
-  -moz-box-shadow: -1px 16px 20px 0px rgba(0, 0, 0, 0.28);
-  box-shadow: -1px 16px 20px 0px rgba(0, 0, 0, 0.28); }
+    background-color: #ff8545;
+    border-bottom: 1px solid #ffffff;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+    -webkit-box-shadow: -1px 1px 20px 0px rgba(0, 0, 0, 0.48);
+    -moz-box-shadow: -1px 1px 20px 0px rgba(0, 0, 0, 0.48);
+    box-shadow: -1px 1px 20px 0px rgba(0, 0, 0, 0.48);
+}
 
 .navbar #bottom .container {
   /* Bo├«te des liens */
-  margin-top: 0px; }
+  margin-top: 0px;
+   }
 
 .navbar #bottom .container .navbar-nav {
   /* Sous-boite des liens */
@@ -35,8 +43,12 @@
   /* Texte des liens */
   color: #FFFFFF;
   text-transform: uppercase;
-  transition: 300ms cubic-bezier(0.4, 0, 1, 1);
-  padding: 10px 30px; }
+  transition: 300ms cubic-bezier(0.6, 0, 1, 1);
+  padding: 10px 30px; 
+    -webkit-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.70);
+    -moz-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.70);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+    }
 
 .navbar #bottom .container .nav > li > a:hover {
   /* Texte des liens au survol */
