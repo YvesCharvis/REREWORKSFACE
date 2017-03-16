@@ -1,8 +1,7 @@
-
 <article id="article-accl" class="blanc row">
 	<!-- <figure class="figure pull-left gap-right"> -->
 	<div class="imageAticle col-md-6 col col-lg-6 col ">
-	<img src="img/article1.jpeg" class=" img-thumbnail resize"/>
+	<img src="img/une5.png" class=" img-thumbnail resize"/>
 	<figcaption class="figure-caption text-center">La Fondation Face possède désormais un club dans le territoire bourbonnais. </figcaption> 
 	</div>
 	
