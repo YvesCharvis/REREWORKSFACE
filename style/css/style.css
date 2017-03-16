@@ -672,6 +672,9 @@ span {
 .col-xs-8 {
   padding: 0; }
 
+.phraseacroche {
+  display: center; }
+
 /*Classes necessaires aux fonctions afficher article et onclick ne pas inverser leur ordre*/
 .cache {
   display: none; }

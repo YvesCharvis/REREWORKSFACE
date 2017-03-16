@@ -3,7 +3,7 @@
 	<!--///////////////////////////////////Phrase Accorche + DIV FACEBOOK ? \\\\\\\\\\\\\\\-->
 
 	<!--///////////////////////////////////CONTENEUR\\\\\\\\\\\\\\\\\\\\\\-->
-<img classe="phraseacroche col-xs-offset-3" src="img/phrase.png" width="40%">
+<img classe="phraseacroche" src="img/phrase.png" width="40%">
 
 <div id="containerUne col-md-10 col-md-offset-3">
 	<div id="conteneur" class="col-xs-12 col-md-10 col-md-offset-1"> 		<!--Conteneur detier la Une, Menu press et social -->
