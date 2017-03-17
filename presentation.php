@@ -2,7 +2,7 @@
 	
 
 <div class=" col-md-offset-1 title">
-  <div class="title-word"><h1><span>P</span>résentation</h1></div>
+  <div class="title-word"><span>Présentation</span></div>
   <div class="title-word">« Sans se substituer à la puissance publique, ni aux associations, la capacité des entreprises à accompagner l’accès</div>
   <div class="title-word">à l’emploi, à la formation, aux biens et services essentiels, aux droits…</div>
   <div class="title-word">constitue un formidable levier d’insertion, d’inclusion et d’intégration. »</div>

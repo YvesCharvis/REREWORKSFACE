@@ -7,7 +7,7 @@
 		<div class="col-xs-1 col-md-1">		
 		</div>
 			<div id="titrepage" class="col-xs-8 col-md-10">
-				<h1 id="global"><span>LA</span> FABRIK</h1>			
+				<h1 id="global">LA FABRIK</h1>			
 			</div>
 				<div class="col-xs-1 col-md-1">			
 					</div>		
