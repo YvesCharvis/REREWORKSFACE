@@ -3,7 +3,12 @@
 	<!--///////////////////////////////////Phrase Accorche + DIV FACEBOOK ? \\\\\\\\\\\\\\\-->
 
 	<!--///////////////////////////////////CONTENEUR\\\\\\\\\\\\\\\\\\\\\\-->
-<img classe="phraseacroche" src="img/phrase.png" width="40%">
+<div class=" col-md-offset-1 title">
+  <div class="title-word"><span>Les Entreprises Contre L'exclusion<span></div>
+  <div class="title-word">Sans se substituer à la puissance publique, ni aux associations, la capacité des entreprises</div>
+  <div class="title-word">à accompagner l'accés à l'emploi, à la formation, aux biens et services essentiels,</div>
+  <div class="title-word">aux droits constitue un formidable levier d'insertion, d'inclusion et d'intégrations.</div>
+</div>
 
 <div id="containerUne col-md-10 col-md-offset-3">
 	<div id="conteneur" class="col-xs-12 col-md-10 col-md-offset-1"> 		<!--Conteneur detier la Une, Menu press et social -->

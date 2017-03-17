@@ -1,4 +1,12 @@
 <?php include "header.php" ?>
+
+
+<div class=" col-md-offset-1 title">
+  <div class="title-word"><span>La Frabik<span></div>
+  <div class="title-word">Ecole du</div>
+  <div class="title-word">Numerique</div>
+</div>
+
 <div class="col-md-10 col col-md-offset-1">
 <ul class="collapsible popout" data-collapsible="accordion" widht="90%"> 
     <li>
@@ -484,6 +492,8 @@ Antoine Delacou» </p>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+
 	</div>
 	</div>	
  <?php include 'footer.php' ?>
