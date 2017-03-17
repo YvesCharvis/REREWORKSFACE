@@ -4,18 +4,20 @@
 
 <div class="carousel">
   <div class="holder">
-    <img class="imgcar" src="http://fakeimg.pl/200x100" alt="" />
-    <img class="imgcar" src="http://fakeimg.pl/300x200" alt="" />
-    <img class="imgcar" src="http://fakeimg.pl/400x300" alt="" />
-    <img class="imgcar" src="http://fakeimg.pl/200x100" alt="" />
-    <img class="imgcar" src="http://fakeimg.pl/500x400" alt="" />
-    <img class="imgcar" src="http://fakeimg.pl/210x105" alt="" />
-    <img class="imgcar" src="http://fakeimg.pl/200x100" alt="" />
-    <img class="imgcar" src="http://fakeimg.pl/250x150" alt="" />
-    <img class="imgcar" src="http://fakeimg.pl/200x100" alt="" />
-    <img class="imgcar" src="http://fakeimg.pl/200x100" alt="" />
-    <img class="imgcar" src="http://fakeimg.pl/200x100" alt="" />
-    <img class="imgcar" src="http://fakeimg.pl/200x100" alt="" />
+    <img class="imgcar" src="img/footer/1.png" alt="" />
+    <img class="imgcar" src="img/footer/2.png" alt="" />
+    <img class="imgcar" src="img/footer/3.png" alt="" />
+    <img class="imgcar" src="img/footer/4.png" alt="" />
+    <img class="imgcar" src="img/footer/5.png" alt="" />
+    <img class="imgcar" src="img/footer/6.png" alt="" />
+    <img class="imgcar" src="img/footer/7.png" alt="" />
+    <img class="imgcar" src="img/footer/8.png" alt="" />
+    <img class="imgcar" src="img/footer/9.png" alt="" />
+    <img class="imgcar" src="img/footer/10.png" alt="" />
+    <img class="imgcar" src="img/footer/11.png" alt="" />
+    <img class="imgcar" src="img/footer/12.png" alt="" />
+    <img class="imgcar" src="img/footer/13.png" alt="" />
+    <img class="imgcar" src="img/footer/14.png" alt="" />
   </div>
 </div>
   <footer>
