@@ -97,3 +97,15 @@ footer { background-color:#0c1a1e; min-height:300px; font-family: 'Open Sans', s
     transform: translateX(-100%);
   }
 }
+
+
+
+
+.imgcar{
+  filter: grayscale(0.7);
+  transition: all 0.3s ease-in-out;
+ }
+ .imgcar:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);
+ }

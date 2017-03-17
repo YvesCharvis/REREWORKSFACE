@@ -208,7 +208,8 @@ img .phraseacroche {
 
 .articleimg1, .articleimg2, .articleimg3, .articleimg4, .articleimg5 {
   padding: 0px;
-  border: solid 0.01em #E9E9E9; }
+  border: solid 0.01em #E9E9E9;
+  overflow: hidden; }
 
 /*style articles accueil*/
 .blanc {
@@ -758,6 +759,14 @@ footer {
     transform: translateX(-50%); }
   100% {
     transform: translateX(-100%); } }
+.imgcar {
+  filter: grayscale(0.7);
+  transition: all 0.3s ease-in-out; }
+
+.imgcar:hover {
+  filter: grayscale(0);
+  transform: scale(1.1); }
+
 @font-face {
   font-family: 'geo';
   src: url("../../fonts/geo.ttf"); }
