@@ -1,6 +1,6 @@
 <?php include "header.php" ?>
-
-<ul class="collapsible popout" data-collapsible="accordion" widht="90%">
+<div class="col-md-10 col col-md-offset-1">
+<ul class="collapsible popout" data-collapsible="accordion" widht="90%"> 
     <li>
       <div class="collapsible-header active">Description</div>
       <div class="collapsible-body">
@@ -478,7 +478,7 @@ Antoine Delacou» </p>
     </li>
   </ul>
 
-
+</div>
 
       
 

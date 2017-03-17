@@ -2,28 +2,19 @@
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* ----------------------------------------------------------- Importation --------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
-@import url("bootstrap.min.css");
-body{
-	    margin: 0px;
-
-}
-
-
-
 .navbar #bottom {
-    background-color: #ff8545;
-    border-bottom: 1px solid #ffffff;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 18px;
-    -webkit-box-shadow: -1px 1px 20px 0px rgba(0, 0, 0, 0.48);
-    -moz-box-shadow: -1px 1px 20px 0px rgba(0, 0, 0, 0.48);
-    box-shadow: -1px 1px 20px 0px rgba(0, 0, 0, 0.48);
-}
+  /* Zone menu & navigation */
+  background-color: #E79063;
+  border-bottom: 3px solid #8b563c;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 18px;
+  -webkit-box-shadow: -1px 16px 20px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: -1px 16px 20px 0px rgba(0, 0, 0, 0.28);
+  box-shadow: -1px 16px 20px 0px rgba(0, 0, 0, 0.28); }
 
 .navbar #bottom .container {
   /* Bo├«te des liens */
-  margin-top: 0px;
-   }
+  margin-top: 0px; }
 
 .navbar #bottom .container .navbar-nav {
   /* Sous-boite des liens */
@@ -43,12 +34,8 @@ body{
   /* Texte des liens */
   color: #FFFFFF;
   text-transform: uppercase;
-  transition: 300ms cubic-bezier(0.6, 0, 1, 1);
-  padding: 10px 30px; 
-    -webkit-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.70);
-    -moz-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.70);
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
-    }
+  transition: 300ms cubic-bezier(0.4, 0, 1, 1);
+  padding: 10px 30px; }
 
 .navbar #bottom .container .nav > li > a:hover {
   /* Texte des liens au survol */
@@ -128,7 +115,7 @@ body{
     background-position: 46% 50%; } }
 @media screen and (max-width: 425px) {
   .navbar #top {
-    padding: 0px 0px; } }
+    padding: 15px 15px; } }
 .container {
   margin-top: 250px; }
 
@@ -158,6 +145,20 @@ body{
   border-radius: 5px;
   padding-top: 15px;
   padding-bottom: 15px; }
+
+/* LOGO top left */
+.container #top {
+  background: #1f5d74;
+  background: -moz-linear-gradient(-65deg, #1f5d74 0%, #1f5d74 40%, #1693a5 45%);
+  background: -webkit-linear-gradient(-65deg, #1f5d74 0%, #1f5d74 40%, #1693a5 45%);
+  background: linear-gradient(155deg, #1f5d74 0%, #1f5d74 40%, #1693a5 45%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f5d74', endColorstr='#1693a5',GradientType=1 ); }
+
+.container #top img {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  padding: 10px;
+  width: 20em; }
 
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* ----------------------------------------------------------- CSSCONTENEUR -------------------------------------------------------------------------*/
@@ -693,21 +694,3 @@ span {
 
 .Afficher {
   display: inline; }
-
-/* LOGO top left */
-
-.container #top{    
-	background: #1f5d74;
-	background: -moz-linear-gradient(-65deg, #1f5d74 0%, #1f5d74 40%, #1693a5 45%);
-	background: -webkit-linear-gradient(-65deg, #1f5d74 0%,#1f5d74 40%,#1693a5 45%);
-	background: linear-gradient(155deg, #1f5d74 0%,#1f5d74 40%,#1693a5 45%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f5d74', endColorstr='#1693a5',GradientType=1 );
-}
-
-.container #top img{
-	-webkit-filter: drop-shadow(5px 5px 5px #222 );
-  	filter: drop-shadow(5px 5px 5px #222);
-  	padding: 10px; 
-  	width: 20em;
-
-}
