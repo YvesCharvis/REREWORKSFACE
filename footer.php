@@ -1,37 +1,23 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<!-- </div> ROW SOUS BODY
 
-    <div id="carrousel-id" class="container"  >
-    <div id="single" class="carousel slide" data-ride="carousel" data-shift="1">
-    <h2 class="carrousel-h2">NOS PARTENAIRES</h2>
-    <div class="carousel-inner" >
-      <ul class="row item active" >
-        <li id="ag2r" class="col-xs-4 one"> <a href="http://www.ag2rlamondiale.fr/"><img src="img/carrousel/ag2r.png"< class="img-responsive"></a> </li>
-        <li id="admical" class="col-xs-4 one"> <a href="http://www.admical.org/"> <img src="img/carrousel/admical.png" class="img-responsive"></a> </li>
-        <li id="afmd" class="col-xs-4 one"> <a href="http://www.afmd.fr/"><img src="img/carrousel/afmd.png" class="img-responsive"></a> </li>
-        </ul>
-        <ul class="row item">
-          <li id="anru" class="col-xs-4 one"><a href="http://www.anru.fr/"> <img src="img/carrousel/anru.png" class="img-responsive"></a> </li> 
-          <li id="apf" class="col-xs-4 one"> <a href="http://www.apf.asso.fr/"><img src="img/carrousel/logoapf.png" class="img-responsive"></a> </li>
-        </ul>
-        <ul class="row item">
-          <li id="cnam" class="col-xs-4 one"><a href="http://www.cnam.fr//"> <img src="img/carrousel/logo_cnam.png" class="img-responsive"></a> </li>
-          <li id="fei" class="col-xs-4 one"><a href="https://www.fei.org/"> <img src="img/carrousel/fei.png" class="img-responsive"></a> </li>
-        </ul>
-        <ul class="row item">
-          <li id="total" class="col-xs-4 one"><a href="http://www.ag2rlamondiale.fr/"> <img src="img/carrousel/total.png" class="img-responsive"></a> </li>
-          <li id="union" class="col-xs-4 one"><a href="http://www.ag2rlamondiale.fr/"> <img src="img/carrousel/union.png" class="img-responsive"></a> </li>
-        </ul>
-      </div>
-      <a class="carousel-control left" href="#single" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </a> 
+<h1 class="carousels3">Partenaire</h1>
 
-      <a class="carousel-control right" href="#single" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
-      </div>
-      </div> -->
+<div class="carousel">
+  <div class="holder">
+    <img class="imgcar" src="http://fakeimg.pl/200x100" alt="" />
+    <img class="imgcar" src="http://fakeimg.pl/300x200" alt="" />
+    <img class="imgcar" src="http://fakeimg.pl/400x300" alt="" />
+    <img class="imgcar" src="http://fakeimg.pl/200x100" alt="" />
+    <img class="imgcar" src="http://fakeimg.pl/500x400" alt="" />
+    <img class="imgcar" src="http://fakeimg.pl/210x105" alt="" />
+    <img class="imgcar" src="http://fakeimg.pl/200x100" alt="" />
+    <img class="imgcar" src="http://fakeimg.pl/250x150" alt="" />
+    <img class="imgcar" src="http://fakeimg.pl/200x100" alt="" />
+    <img class="imgcar" src="http://fakeimg.pl/200x100" alt="" />
+    <img class="imgcar" src="http://fakeimg.pl/200x100" alt="" />
+    <img class="imgcar" src="http://fakeimg.pl/200x100" alt="" />
+  </div>
+</div>
   <footer>
 
 <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -68,11 +54,11 @@
                     <li><a href="contact.php" title="Contact" class="active">Contact</a></li>
                 </ul>
       </div>
-    <!--   <div class="col-md-3 col-sm-6 paddingtop-bottom">
+     <div class="col-md-3 col-sm-6 paddingtop-bottom">
          
-    </div> -->
-      <div class="col-md-5 col-sm-6 paddingtop-bottom">
-        <div class="fb-page" data-href="https://www.facebook.com/faceterritoirebourbonnais" data-tabs="timeline" data-width="750" data-height="300" data-small-header="false" style="margin-bottom:15px;" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+    </div> 
+      <div class="col-md-3 col-sm-6 paddingtop-bottom">
+        <div class="fb-page" data-href="https://www.facebook.com/faceterritoirebourbonnais" data-tabs="timeline" data-width="450" data-height="300" data-small-header="false" style="margin-bottom:15px;" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
           <div class="fb-xfbml-parse-ignore">
             <blockquote cite="https://www.facebook.com/faceterritoirebourbonnais"><a href="https://www.facebook.com/faceterritoirebourbonnais">Facebook</a></blockquote>
           </div>
