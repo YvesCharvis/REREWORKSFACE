@@ -1,6 +1,12 @@
 <?php include 'header.php' ?>
 
   <body>
+  <div class=" col-md-offset-1 title">
+  <div class="title-word"><span>GALERIE D'IMAGES<span></div>
+  <div class="title-word">Sans se substituer à la puissance publique, ni aux associations, la capacité des entreprises</div>
+  <div class="title-word">à accompagner l'accés à l'emploi, à la formation, aux biens et services essentiels,</div>
+  
+</div>
   
 <!-- Galerie
     ================================================== -->

@@ -1,13 +1,15 @@
 <?php include 'header.php' ?>
-	<main>
+	
 
 <div class=" col-md-offset-1 title">
-  <div class="title-word"><span>Présentation<span></div>
-  <div class="title-word">« Sans se substituer à la puissance publique, ni aux associations, la capacité des entreprises à accompagner l’accès à</div>
-  <div class="title-word">l’emploi, à la formation, aux biens et services essentiels, aux droits…   constitue un formidable levier d’insertion,</div>
-  <div class="title-word"> d’inclusion et d’intégration. »</div>
+  <div class="title-word"><h1><span>P</span>résentation</h1></div>
+  <div class="title-word">« Sans se substituer à la puissance publique, ni aux associations, la capacité des entreprises à accompagner l’accès</div>
+  <div class="title-word">à l’emploi, à la formation, aux biens et services essentiels, aux droits…</div>
+  <div class="title-word">constitue un formidable levier d’insertion, d’inclusion et d’intégration. »</div>
 </div>
 
+
+	<main>
   <div class="row">
     <div class="col s12">
       <ul class="tabs">
@@ -20,8 +22,8 @@
 
 <div id="test1" class="col s12">   
 	<div class="col-md-10 col col-md-offset-1">
-     	<br>
-            <blockquote>  « Sans se substituer à la puissance publique, ni aux associations, la capacité des entreprises à accompagner l’accès à l’emploi, à la formation, aux biens et services essentiels, aux droits…   constitue un formidable levier d’insertion, d’inclusion et d’intégration. »
+     	
+            
                 <small class="pull-right">Gérard Mestrallet, Président de la Fondation FACE</small>           
        <br>
        <br>

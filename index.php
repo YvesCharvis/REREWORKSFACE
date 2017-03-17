@@ -35,12 +35,12 @@
 <div class="cal-md-6">
 
 </div>
-    </div>
+    
 <div id="containerDeux col-xs-12 col-md-12 ">
 
 
 </div>
-	</div>
+	
 <div id="containerDeux col-xs-12 col-md-12 ">
 	<div id="oldPresse" class="col-xs-10 col-md-12"> 
 		<H2 class="aLaUne col-xs-12 col-md-12 col-lg-12 text-left text-capitalize">Plus <span>encore</span></H2>  	<!-- La Une DIV -->
@@ -82,6 +82,7 @@
            	</div>
 	</div>  
 </div>	
+
 
 </div> <!-- fermeture containerUne -->
 
