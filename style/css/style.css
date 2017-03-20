@@ -10,9 +10,9 @@
   border-bottom: 3px solid #8b563c;
   font-family: 'Fjalla One', sans-serif;
   font-size: 18px;
-  -webkit-box-shadow: -1px 16px 20px 0px rgba(0, 0, 0, 0.28);
-  -moz-box-shadow: -1px 16px 20px 0px rgba(0, 0, 0, 0.28);
-  box-shadow: -1px 16px 20px 0px rgba(0, 0, 0, 0.28); }
+  -webkit-box-shadow: -1px 1px 20px 0px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: -1px 1px 20px 0px rgba(0, 0, 0, 0.48);
+  box-shadow: -1px 1px 20px 0px rgba(0, 0, 0, 0.48); }
 
 .navbar #bottom .container {
   /* Bo├«te des liens */
@@ -37,7 +37,11 @@
   color: #FFFFFF;
   text-transform: uppercase;
   transition: 300ms cubic-bezier(0.4, 0, 1, 1);
-  padding: 10px 30px; }
+  padding: 10px 30px; 
+  -webkit-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.70);
+  -moz-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.70);
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);}
+
 
 .navbar #bottom .container .nav > li > a:hover {
   /* Texte des liens au survol */
@@ -639,13 +643,17 @@ footer {
   margin-top: 50px; }
 
 .footer-ul {
+
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
   padding-left: 0px;
   margin-left: 2px; }
 
 .footer-ul li {
   line-height: 29px;
-  font-size: 12px; }
+  font-size: 18px; 
+	}
 
 .footer-ul li a {
   color: orange;
@@ -806,3 +814,118 @@ span {
 
 .Afficher {
   display: inline; }
+
+
+/*SEARCH BAR*/
+
+#top form{
+	padding-top: 70px;
+	display: flex;
+	float: right;
+	height: 70px;
+	padding-right: 10px;
+}
+
+
+.cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+ 
+.cf:after{
+    clear:both;
+}
+ 
+.cf{
+    zoom:1;
+}    
+
+
+/* Style entre de la recherche */
+ 
+.form-wrapper input {
+    width: 21em;
+    height: 20px;
+    padding: 10px 5px;
+    float: left;    
+    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 0;
+    background: #eee;
+    border-radius: 3px 0 0 3px;      
+}
+ 
+.form-wrapper input:focus {
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+ 
+.form-wrapper input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+   font-style: italic;
+}
+ 
+.form-wrapper input:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+ 
+.form-wrapper input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}    
+ 
+/* button d`envoyer */
+.form-wrapper button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 9.1em;
+    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: #d83c3c;
+    border-radius: 0 3px 3px 0;      
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}   
+   
+.form-wrapper button:hover{     
+    background: #e54040;
+}   
+   
+.form-wrapper button:active,
+.form-wrapper button:focus{   
+    background: #c42f2f;
+    outline: 0;   
+}
+ 
+.form-wrapper button:before { /* < sur button */
+    content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #d83c3c transparent;
+    top: 12px;
+    left: -6px;
+}
+ 
+.form-wrapper button:hover:before{
+    border-right-color: #e54040;
+}
+ 
+.form-wrapper button:focus:before,
+.form-wrapper button:active:before{
+        border-right-color: #c42f2f;
+}      
+ 
+.form-wrapper button::-moz-focus-inner { /* supprimer l`espace - mozila */
+    border: 0;
+    padding: 0;
+}    

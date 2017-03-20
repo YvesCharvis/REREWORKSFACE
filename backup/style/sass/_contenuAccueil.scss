@@ -1,0 +1,192 @@
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- CSSCONTENEUR -------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------image acroche------ */
+
+img .phraseacroche{
+  margin-right: 15%;
+}
+
+.contener{
+	margin-bottom: 50px;
+	width: 88%;
+}
+
+.aLaUne{
+	border-bottom: 2px solid orange;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+#hamburger{						/* Div du future hamburger */
+	text-align: center;
+	background-color: #4D4A4A;
+	box-shadow: 2px 2px 5px 0px #656565;
+}
+
+#conteneur{
+	background-image: linear-gradient(120deg, #1F5D74 15%, #1693A5 35%);
+	margin-right: 35px;
+}
+#fb-root{
+	background-color: #3B5999;
+	width: 20%;
+	box-shadow: 2px 2px 5px 0px #656565;
+	
+}
+.pagefb{
+	width: 95%;
+	margin-left: 8px;
+	
+}
+#containerDeux{
+	width: 50%;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- CSSLA UNE ----------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.les-articles{
+	padding-bottom: 25px; 
+}
+
+.articleimg1, .articleimg2, .articleimg3, .articleimg4, .articleimg5{
+padding: 0px;
+border: solid 0.01em #E9E9E9;
+overflow: hidden;
+
+ }
+/*style articles accueil*/
+
+
+.blanc{
+	background-color: white;
+	padding: 2em 2em 2em 2em;;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 10px;
+
+}
+.gap-right {
+    margin-right: 20px; 
+    overflow: wrap;
+    width: 400px;
+}
+figcaption{
+	text-transform: bold;
+	font-weight: bold;
+}
+
+.indent {
+    text-indent: 20px;
+}
+
+/* fin style articles accueil*/
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- PLUS ENCORE ----------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+#etPlusEncore{
+
+}
+.panel, .panel-default{
+	padding: 1%;
+}
+
+.title {
+  position: relative;
+  -webkit-perspective: 400;
+          perspective: 400;
+  padding-left: 17px;
+  margin-bottom: 35px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #1693A5;
+}
+.title:before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 8px;
+  background: #EC9566;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transform: translateX(-150px);
+          transform: translateX(-150px);
+  -webkit-animation: title-border-slide-in 1s ease-out forwards;
+          animation: title-border-slide-in 1s ease-out forwards;
+}
+.title .title-word {
+  opacity: 0;
+  -webkit-transform-origin: bottom center;
+          transform-origin: bottom center;
+  -webkit-transform: rotateX(-90deg);
+          transform: rotateX(-90deg);
+}
+.title .title-word:nth-child(1) {
+  -webkit-animation: roll-in 0.15s 0s ease-out forwards;
+          animation: roll-in 0.15s 0s ease-out forwards;
+}
+.title .title-word:nth-child(2) {
+  -webkit-animation: roll-in 0.15s 0.175s ease-out forwards;
+          animation: roll-in 0.15s 0.175s ease-out forwards;
+}
+.title .title-word:nth-child(3) {
+  -webkit-animation: roll-in 0.15s 0.35s ease-out forwards;
+          animation: roll-in 0.15s 0.35s ease-out forwards;
+}
+.title .title-word:nth-child(4) {
+  -webkit-animation: roll-in 0.15s 0.525s ease-out forwards;
+          animation: roll-in 0.15s 0.525s ease-out forwards;
+}
+@-webkit-keyframes title-border-slide-in {
+  0% {
+    -webkit-transform: translateX(-150px);
+            transform: translateX(-150px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes title-border-slide-in {
+  0% {
+    -webkit-transform: translateX(-150px);
+            transform: translateX(-150px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes roll-in {
+  0% {
+    -webkit-transform: rotateX(-90deg);
+            transform: rotateX(-90deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
+@keyframes roll-in {
+  0% {
+    -webkit-transform: rotateX(-90deg);
+            transform: rotateX(-90deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
